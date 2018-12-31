@@ -8,7 +8,7 @@
 production:
   adapter: postgresql
   encoding: unicode
-  database: aa1lbshjdbv4gek
+  # database: aa1lbshjdbv4gek
   pool: 5
   username: myapp
   password: password1
