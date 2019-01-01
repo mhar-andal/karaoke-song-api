@@ -5,15 +5,6 @@
 #   gem 'sqlite3'
 #
 
-production:
-  adapter: postgresql
-  encoding: unicode
-  database: aa1lbshjdbv4gek
-  pool: 5
-  username: myapp
-  password: password1
-  host: aa1lbshjdbv4gek.cdl4gfrmd1yt.us-east-1.rds.amazonaws.com
-  port: 5432
 
 development:
   adapter: postgresql
