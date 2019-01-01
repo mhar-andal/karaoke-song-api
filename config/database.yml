@@ -7,7 +7,7 @@
 
 production:
   adapter: postgresql
-  url: ec2-184-73-181-132.compute-1.amazonaws.com
+  url: <%= ENV['DATABASE_URL'] %>
   encoding: unicode
   database: dfakqjkeefaksr
   username: aizuvqbyxapjat
