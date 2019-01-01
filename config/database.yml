@@ -5,6 +5,14 @@
 #   gem 'sqlite3'
 #
 
+production:
+  adapter: postgresql
+  url: ec2-184-73-181-132.compute-1.amazonaws.com
+  encoding: unicode
+  database: dfakqjkeefaksr
+  username: aizuvqbyxapjat
+  port: 5432
+  password: cb3d9c71551880bcfd7c754dbfd84e6b01514a9d082ea000f8646c425fa44148
 
 development:
   adapter: postgresql
